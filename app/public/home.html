@@ -1,73 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Friend Finder</title>
-    <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friend Finder</title>
+  <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
-   <style>
-   html,
-body,
-header,
-.view {
-  height: 100%;
-}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+  <style>
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
-}
+    @media (max-width: 740px) {
 
-.top-nav-collapse {
-  background-color: #78909c !important;
-}
+      html,
+      body,
+      header,
+      .view {
+        height: 100vh;
+      }
+    }
 
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
- 
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #78909c !important;
-  }
-}
+    .top-nav-collapse {
+      background-color: #78909c !important;
+    }
 
-h1 {
-  letter-spacing: 8px;
-}
+    .navbar:not(.top-nav-collapse) {
+      background: transparent !important;
+    }
+
+    @media (max-width: 991px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+      }
+    }
+
+    h1 {
+      letter-spacing: 8px;
+    }
 
 
 
-h5 {
-  letter-spacing: 3px;
-}
+    h5 {
+      letter-spacing: 3px;
+    }
 
-.hr-light {
-  border-top: 3px solid #fff;
-  width: 80px;
-}
-.main2{
-  background-color: rgba(255, 255, 255, 0.473);
-  margin-left:75px;
-  margin-top: 75px;
-  
-}
+    .hr-light {
+      border-top: 3px solid #fff;
+      width: 80px;
+    }
 
-   </style>
+    .main2 {
+      background-color: rgba(255, 255, 255, 0.473);
+      margin-left: 75px;
+      margin-top: 75px;
+
+    }
+  </style>
 </head>
+
 <body>
-    
+
   <!-- Full Page Intro -->
-  <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/04/06/09/istock-698210794.jpg?w968h681'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}'
+    style="background-image: url('https://media.istockphoto.com/photos/friends-cheering-sport-at-bar-together-picture-id945387466?k=6&m=945387466&s=612x612&w=0&h=tYuZU5c0cAwzWRg3kUuqlhiwS6SCNvq5pwleEMmsC7k='); background-repeat: no-repeat; background-size: cover; background-position: center center;">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
       <!-- Content -->
@@ -76,13 +80,16 @@ h5 {
         <div class="row">
           <!--Grid column-->
           <div class="col-md-12 mb-4 white-text text-center">
-            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Friend Finder</strong></h1>
+            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+              data-wow-delay="0.3s"><strong>Friend Finder</strong></h1>
             <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Answer a few questions to</strong></h5>
-            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>get matched with a new friend today.</strong></h5>
+            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Answer a few
+                questions to</strong></h5>
+            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>get matched with a
+                new friend today.</strong></h5>
 
             <a href="survey" class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Begin Assessment</a>
-             
+
           </div>
           <!--Grid column-->
         </div>
@@ -92,21 +99,22 @@ h5 {
     </div>
     <!-- Mask & flexbox options-->
   </div>
-  
-</header>
-<!-- Main navigation -->
-<!--Main Layout-->
-<main>
-  <div class="container">
-    <!--Grid row-->
-    <div class="row py-5">
-      <!--Grid column-->
-      
-      <!--Grid column-->
+
+  </header>
+  <!-- Main navigation -->
+  <!--Main Layout-->
+  <main>
+    <div class="container">
+      <!--Grid row-->
+      <div class="row py-5">
+        <!--Grid column-->
+
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
     </div>
-    <!--Grid row-->
-  </div>
-</main>
-<!--Main Layout-->
+  </main>
+  <!--Main Layout-->
 </body>
+
 </html>
